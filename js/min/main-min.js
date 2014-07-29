@@ -1,0 +1,1 @@
+var main=function(){$(document).keypress(function(){})};$(document).ready(main);
