@@ -14,17 +14,20 @@
 }
 
 .jumbotron {
-    background-image: url('http://i.imgur.com/oDEj4bF.jpg');
-    height: 500px;
+/*    background-image: url('http://i.imgur.com/oDEj4bF.jpg'); */    
+    background-image: url('http://fora.mtv.ca/wp-content/uploads/2012/09/catsofinstagram.jpg');
+    height: 450px;
 }
 
 .jumbotron h1 {
     font-size: 48px;
+    color: #ffffff;
     font-weight: bold;
 }
 
 .jumbotron p {
     font-size: 20px;
+    color: #ffffff;
 }
 
 .jumbotron .container {
