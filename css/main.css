@@ -9,6 +9,10 @@
   text-transform: uppercase;
 }
 
+.nav li {
+    display: inline;
+}
+
 .jumbotron {
     background-image: url('http://i.imgur.com/oDEj4bF.jpg');
     height: 500px;
@@ -21,6 +25,26 @@
 
 .jumbotron p {
     font-size: 20px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 10px;  
+}
+
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
 }
 
 .learn-more {
