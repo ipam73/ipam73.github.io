@@ -1,1 +1,1 @@
-var main=function(){$(document).keypress(function(){})};$(document).ready(main);
+var paralaxEffect=function(){function n(){var n=$(window).scrollTop();$(".bg").css("height",o-n+"px")}var o=$(".jumbotron").outerHeight();$(window).scroll(function(){n()})},main=function(){paralaxEffect()};$(document).ready(main);

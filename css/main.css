@@ -1,6 +1,13 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
 .nav {
   background-color: #efefef;  
 }
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -13,57 +20,60 @@
 }
 
 .nav li {
-    display: inline;
+  display: inline;
+}
+
+.bg {
+  background: url('http://fora.mtv.ca/wp-content/uploads/2012/09/catsofinstagram.jpg') left center;
+  position: fixed;
+  width: 100%;
+  height: 320px;
+  z-index: -1;
 }
 
 .jumbotron {
-/*    background-image: url('http://i.imgur.com/oDEj4bF.jpg'); */    
-    background-image: url('http://fora.mtv.ca/wp-content/uploads/2012/09/catsofinstagram.jpg');
-    height: 450px;
+  height: 320px;
+  text-shadow: #444 0 1px 1px;
+  background:transparent; 
 }
 
 .jumbotron h1 {
-    font-size: 48px;
-    color: #ffffff;
-    font-weight: bold;
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .jumbotron p {
-    font-size: 20px;
-    color: #ffffff;
-}
-
-.jumbotron .container {
-  position: relative;
-  top: 10px;  
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .neighborhood-guides {
-    background-color: #efefef;
-    border-bottom: 1px solid #dbdbdb;
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .neighborhood-guides h2 {
-    color: #393c3d;
-    font-size: 24px;
+  color: #393c3d;
+  font-size: 24px;
 }
 
 .neighborhood-guides p {
-    font-size: 15px;
-    margin-bottom: 13px;
+  font-size: 15px;
+  margin-bottom: 13px;
 }
 
 .learn-more {
-    background-color: #f7f7f7;
-    padding-left: 30px;
-    padding-right: 30px;
+  background-color: #f7f7f7;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .learn-more h3 {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .learn-more a {
-    color: #00b0ff;
+  color: #00b0ff;
 }

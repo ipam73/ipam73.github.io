@@ -1,7 +1,20 @@
-var main = function() {
-	$(document).keypress(function() {
-		//$('.jumbotron').css('background-image', 'http://i.imgur.com/oDEj4bF.jpg');
+var paralaxEffect = function(){
+	var jumboHeight = $('.jumbotron').outerHeight();
+	function parallax(){
+	    var scrolled = $(window).scrollTop();
+	    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+	}
+	$(window).scroll(function(){
+	    parallax();
 	});
+};
+
+var main = function() {
+
+	paralaxEffect();
+
+	// $(".jumbotron").append("<p>****Hellow there</p>");
+
 };
 
 $(document).ready(main);
