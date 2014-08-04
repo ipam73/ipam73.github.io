@@ -5,7 +5,7 @@ body {
 }
 
 .nav {
-  background-color: #efefef;  
+  background-color: #efefef; 
 }
 
 .nav a {
@@ -26,15 +26,16 @@ body {
 .bg {
   background: url('http://fora.mtv.ca/wp-content/uploads/2012/09/catsofinstagram.jpg') left center;
   position: fixed;
+  top: 0px;
   width: 100%;
-  height: 320px;
+  height: 450px;
   z-index: -1;
 }
 
 .jumbotron {
-  height: 320px;
+  height: 390px;
   text-shadow: #444 0 1px 1px;
-  background:transparent; 
+  background: transparent; 
 }
 
 .jumbotron h1 {

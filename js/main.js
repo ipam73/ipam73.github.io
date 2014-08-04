@@ -1,8 +1,8 @@
 var paralaxEffect = function(){
-	var jumboHeight = $('.jumbotron').outerHeight();
+	var bgHeight = $('.bg').outerHeight();
 	function parallax(){
 	    var scrolled = $(window).scrollTop();
-	    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+	    $('.bg').css('height', (bgHeight-scrolled) + 'px');
 	}
 	$(window).scroll(function(){
 	    parallax();
